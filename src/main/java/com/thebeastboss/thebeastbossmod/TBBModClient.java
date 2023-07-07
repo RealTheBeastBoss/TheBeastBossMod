@@ -1,4 +1,4 @@
-package com.thebeastboss;
+package com.thebeastboss.thebeastbossmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

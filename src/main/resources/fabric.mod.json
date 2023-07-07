@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "tbb-mod",
+	"id": "thebeastbossmod",
 	"version": "${version}",
-	"name": "TBB Mod",
+	"name": "TheBeastBoss Mod",
 	"description": "My Minecraft mod is very good and stuff!",
 	"authors": [
 		"TheBeastBoss!"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tbb-mod/icon.png",
+	"icon": "assets/thebeastbossmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.thebeastboss.TBBMod"
+			"com.thebeastboss.thebeastbossmod.TBBMod"
 		],
 		"client": [
-			"com.thebeastboss.TBBModClient"
+			"com.thebeastboss.thebeastbossmod.TBBModClient"
 		],
 		"fabric-datagen": [
-			"com.thebeastboss.TBBModDataGenerator"
+			"com.thebeastboss.thebeastbossmod.TBBModDataGenerator"
 		]
 	},
 	"mixins": [
-		"tbb-mod.mixins.json"
+		"thebeastbossmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
