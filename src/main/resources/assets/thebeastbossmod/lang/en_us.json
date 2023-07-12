@@ -1,4 +1,10 @@
 {
   "item.thebeastbossmod.beastboss_gem": "BeastBoss Gem",
+  "item.thebeastbossmod.beastboss_sword": "BeastBoss Sword",
+  "item.thebeastbossmod.beastboss_pickaxe": "BeastBoss Pickaxe",
+  "item.thebeastbossmod.beastboss_axe": "BeastBoss Axe",
+  "item.thebeastbossmod.beastboss_shovel": "BeastBoss Shovel",
+  "item.thebeastbossmod.beastboss_hoe": "BeastBoss Hoe",
+  "block.thebeastbossmod.beastboss_block": "Block of BeastBossanium",
   "itemgroup.beastboss": "TheBeastBoss"
 }

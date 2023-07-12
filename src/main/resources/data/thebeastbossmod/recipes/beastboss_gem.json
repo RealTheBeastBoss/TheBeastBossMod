@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thebeastbossmod:beastboss_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "thebeastbossmod:beastboss_gem"
+  }
+}
