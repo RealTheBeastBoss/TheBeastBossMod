@@ -5,6 +5,10 @@
   "item.thebeastbossmod.beastboss_axe": "BeastBoss Axe",
   "item.thebeastbossmod.beastboss_shovel": "BeastBoss Shovel",
   "item.thebeastbossmod.beastboss_hoe": "BeastBoss Hoe",
+  "item.thebeastbossmod.beastboss_helmet": "BeastBoss Helmet",
+  "item.thebeastbossmod.beastboss_chestplate": "BeastBoss Chestplate",
+  "item.thebeastbossmod.beastboss_leggings": "BeastBoss Leggings",
+  "item.thebeastbossmod.beastboss_boots": "BeastBoss Boots",
   "block.thebeastbossmod.beastboss_block": "Block of BeastBossanium",
   "itemgroup.beastboss": "TheBeastBoss"
 }

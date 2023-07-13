@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
-    "#": {
+    "X": {
       "item": "thebeastbossmod:beastboss_gem"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "X X",
+    "XXX",
+    "XXX"
   ],
   "result": {
-    "item": "thebeastbossmod:beastboss_block"
+    "item": "thebeastbossmod:beastboss_chestplate"
   }
 }

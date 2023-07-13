@@ -5,10 +5,8 @@ import com.thebeastboss.thebeastbossmod.item.*;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -31,6 +29,14 @@ public class TBBMod implements ModInitializer {
 			new RegularAxeItem(BeastBossToolMaterial.INSTANCE, 7.0f, -3.2f, new FabricItemSettings().fireproof()));
 	public static ToolItem BEASTBOSS_HOE = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_hoe"),
 			new RegularHoeItem(BeastBossToolMaterial.INSTANCE, 3, -2.8f, new FabricItemSettings().fireproof()));
+	public static Item BEASTBOSS_HELMET = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_helmet"),
+			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+	public static Item BEASTBOSS_CHESTPLATE = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_chestplate"),
+			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+	public static Item BEASTBOSS_LEGGINGS = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_leggings"),
+			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+	public static Item BEASTBOSS_BOOTS = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_boots"),
+			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();

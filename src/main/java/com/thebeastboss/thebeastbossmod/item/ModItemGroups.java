@@ -21,6 +21,10 @@ public class ModItemGroups {
                         entries.add(TBBMod.BEASTBOSS_AXE);
                         entries.add(TBBMod.BEASTBOSS_SHOVEL);
                         entries.add(TBBMod.BEASTBOSS_HOE);
+                        entries.add(TBBMod.BEASTBOSS_HELMET);
+                        entries.add(TBBMod.BEASTBOSS_CHESTPLATE);
+                        entries.add(TBBMod.BEASTBOSS_LEGGINGS);
+                        entries.add(TBBMod.BEASTBOSS_BOOTS);
                     }).build());
     public static void registerItemGroups() {
         TBBMod.LOGGER.info("Registering Item Groups for " + TBBMod.MOD_ID);
