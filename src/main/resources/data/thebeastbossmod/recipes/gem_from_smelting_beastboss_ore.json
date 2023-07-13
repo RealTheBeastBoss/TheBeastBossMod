@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 4.0,
+  "group": "beastboss",
+  "ingredient": {
+    "item": "thebeastbossmod:beastboss_ore"
+  },
+  "result": "thebeastbossmod:beastboss_gem"
+}

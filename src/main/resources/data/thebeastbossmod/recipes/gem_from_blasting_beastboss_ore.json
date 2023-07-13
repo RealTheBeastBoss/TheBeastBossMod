@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "beastboss",
+  "ingredient": {
+    "item": "thebeastbossmod:beastboss_ore"
+  },
+  "result": "thebeastbossmod:beastboss_gem"
+}

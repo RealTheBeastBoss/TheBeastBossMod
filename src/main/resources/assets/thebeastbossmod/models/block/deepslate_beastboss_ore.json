@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thebeastbossmod:block/deepslate_beastboss_ore"
+  }
+}

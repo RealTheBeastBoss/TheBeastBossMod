@@ -1,10 +1,12 @@
 package com.thebeastboss.thebeastbossmod;
 
 import com.thebeastboss.thebeastbossmod.block.ModBlocks;
+import com.thebeastboss.thebeastbossmod.enchantment.WitheringEnchantment;
 import com.thebeastboss.thebeastbossmod.item.*;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -28,7 +30,7 @@ public class TBBMod implements ModInitializer {
 	public static ToolItem BEASTBOSS_AXE = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_axe"),
 			new RegularAxeItem(BeastBossToolMaterial.INSTANCE, 7.0f, -3.2f, new FabricItemSettings().fireproof()));
 	public static ToolItem BEASTBOSS_HOE = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_hoe"),
-			new RegularHoeItem(BeastBossToolMaterial.INSTANCE, 3, -2.8f, new FabricItemSettings().fireproof()));
+			new RegularHoeItem(BeastBossToolMaterial.INSTANCE, 1, -2.8f, new FabricItemSettings().fireproof()));
 	public static Item BEASTBOSS_HELMET = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_helmet"),
 			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
 	public static Item BEASTBOSS_CHESTPLATE = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_chestplate"),
@@ -37,6 +39,8 @@ public class TBBMod implements ModInitializer {
 			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
 	public static Item BEASTBOSS_BOOTS = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_boots"),
 			new ArmorItem(BeastBossArmourMaterial.INSTANCE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+	// TheBeastBoss Mod's Enchantments:
+	public static Enchantment WITHERING = Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "withering"), new WitheringEnchantment());
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();

@@ -1,5 +1,7 @@
 {
   "values": [
-    "thebeastbossmod:beastboss_block"
+    "thebeastbossmod:beastboss_block",
+    "thebeastbossmod:beastboss_ore",
+    "thebeastbossmod:deepslate_beastboss_ore"
   ]
 }

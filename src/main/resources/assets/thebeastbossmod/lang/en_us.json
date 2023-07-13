@@ -10,5 +10,9 @@
   "item.thebeastbossmod.beastboss_leggings": "BeastBoss Leggings",
   "item.thebeastbossmod.beastboss_boots": "BeastBoss Boots",
   "block.thebeastbossmod.beastboss_block": "Block of BeastBossanium",
+  "block.thebeastbossmod.beastboss_ore": "BeastBossanium Ore",
+  "block.thebeastbossmod.deepslate_beastboss_ore": "Deepslate BeastBossanium Ore",
+  "enchantment.thebeastbossmod.withering": "Withering",
+  "enchantment.thebeastbossmod.withering.description": "Has a chance to inflict targets with Wither",
   "itemgroup.beastboss": "TheBeastBoss"
 }
