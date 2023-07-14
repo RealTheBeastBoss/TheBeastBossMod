@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "thebeastbossmod:beastboss_wood",
+    "thebeastbossmod:stripped_beastboss_wood",
+    "thebeastbossmod:beastboss_log",
+    "thebeastbossmod:stripped_beastboss_log",
+    "thebeastbossmod:beastboss_planks",
+    "thebeastbossmod:beastboss_button",
+    "thebeastbossmod:beastboss_pressure_plate",
+    "thebeastbossmod:beastboss_fence",
+    "thebeastbossmod:beastboss_fence_gate"
+  ]
+}

@@ -27,6 +27,17 @@ public class ModItemGroups {
                         entries.add(TBBMod.BEASTBOSS_CHESTPLATE);
                         entries.add(TBBMod.BEASTBOSS_LEGGINGS);
                         entries.add(TBBMod.BEASTBOSS_BOOTS);
+                        entries.add(ModBlocks.BEASTBOSS_LOG);
+                        entries.add(ModBlocks.BEASTBOSS_WOOD);
+                        entries.add(ModBlocks.STRIPPED_BEASTBOSS_LOG);
+                        entries.add(ModBlocks.STRIPPED_BEASTBOSS_WOOD);
+                        entries.add(ModBlocks.BEASTBOSS_PLANKS);
+                        entries.add(ModBlocks.BEASTBOSS_LEAVES);
+                        entries.add(ModBlocks.BEASTBOSS_SAPLING);
+                        entries.add(ModBlocks.BEASTBOSS_BUTTON);
+                        entries.add(ModBlocks.BEASTBOSS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.BEASTBOSS_FENCE);
+                        entries.add(ModBlocks.BEASTBOSS_FENCE_GATE);
                     }).build());
     public static void registerItemGroups() {
         TBBMod.LOGGER.info("Registering Item Groups for " + TBBMod.MOD_ID);

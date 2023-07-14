@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thebeastbossmod:block/beastboss_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thebeastbossmod:block/beastboss_wood"
+    },
+    "axis=z": {
+      "model": "thebeastbossmod:block/beastboss_wood",
+      "x": 90
+    }
+  }
+}

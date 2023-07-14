@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thebeastbossmod:block/beastboss_log_top",
+    "side": "thebeastbossmod:block/beastboss_log"
+  }
+}

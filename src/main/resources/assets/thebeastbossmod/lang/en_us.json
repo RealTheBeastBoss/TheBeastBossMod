@@ -9,9 +9,22 @@
   "item.thebeastbossmod.beastboss_chestplate": "BeastBoss Chestplate",
   "item.thebeastbossmod.beastboss_leggings": "BeastBoss Leggings",
   "item.thebeastbossmod.beastboss_boots": "BeastBoss Boots",
+
   "block.thebeastbossmod.beastboss_block": "Block of BeastBossanium",
   "block.thebeastbossmod.beastboss_ore": "BeastBossanium Ore",
   "block.thebeastbossmod.deepslate_beastboss_ore": "Deepslate BeastBossanium Ore",
+  "block.thebeastbossmod.beastboss_log": "BeastBoss Log",
+  "block.thebeastbossmod.stripped_beastboss_log": "Stripped BeastBoss Log",
+  "block.thebeastbossmod.beastboss_wood": "BeastBoss Wood",
+  "block.thebeastbossmod.stripped_beastboss_wood": "Stripped BeastBoss Wood",
+  "block.thebeastbossmod.beastboss_planks": "BeastBoss Planks",
+  "block.thebeastbossmod.beastboss_leaves": "BeastBoss Leaves",
+  "block.thebeastbossmod.beastboss_sapling": "BeastBoss Sapling",
+  "block.thebeastbossmod.beastboss_button": "BeastBoss Button",
+  "block.thebeastbossmod.beastboss_pressure_plate": "BeastBoss Pressure Plate",
+  "block.thebeastbossmod.beastboss_fence": "BeastBoss Fence",
+  "block.thebeastbossmod.beastboss_fence_gate": "BeastBoss Fence Gate",
+
   "enchantment.thebeastbossmod.withering": "Withering",
   "enchantment.thebeastbossmod.withering.description": "Has a chance to inflict targets with Wither",
   "itemgroup.beastboss": "TheBeastBoss"

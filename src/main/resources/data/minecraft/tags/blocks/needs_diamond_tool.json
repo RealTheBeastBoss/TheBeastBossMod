@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "thebeastbossmod:beastboss_block",
     "thebeastbossmod:beastboss_ore",

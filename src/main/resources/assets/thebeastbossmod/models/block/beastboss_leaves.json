@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "thebeastbossmod:block/beastboss_leaves"
+  }
+}

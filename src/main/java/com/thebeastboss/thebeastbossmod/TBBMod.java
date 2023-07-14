@@ -3,11 +3,13 @@ package com.thebeastboss.thebeastbossmod;
 import com.thebeastboss.thebeastbossmod.block.ModBlocks;
 import com.thebeastboss.thebeastbossmod.enchantment.WitheringEnchantment;
 import com.thebeastboss.thebeastbossmod.item.*;
+import com.thebeastboss.thebeastbossmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -52,6 +54,9 @@ public class TBBMod implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModWorldGeneration.generateModWorldGen();
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, BEASTBOSS_ORE_PLACED_KEY);
+		StrippableBlockRegistry.register(ModBlocks.BEASTBOSS_LOG, ModBlocks.STRIPPED_BEASTBOSS_LOG);
+		StrippableBlockRegistry.register(ModBlocks.BEASTBOSS_WOOD, ModBlocks.STRIPPED_BEASTBOSS_WOOD);
 	}
 }

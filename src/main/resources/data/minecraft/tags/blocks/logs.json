@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thebeastbossmod:beastboss_log",
+    "thebeastbossmod:beastboss_wood",
+    "thebeastbossmod:stripped_beastboss_log",
+    "thebeastbossmod:stripped_beastboss_wood"
+  ]
+}
