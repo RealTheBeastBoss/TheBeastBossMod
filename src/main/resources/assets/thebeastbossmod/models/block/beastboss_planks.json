@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "thebeastbossmod:block/beastboss_planks"
+    "end": "thebeastbossmod:block/beastboss_planks_top",
+    "side": "thebeastbossmod:block/beastboss_planks"
   }
 }

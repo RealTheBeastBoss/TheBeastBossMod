@@ -38,6 +38,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BEASTBOSS_PRESSURE_PLATE);
                         entries.add(ModBlocks.BEASTBOSS_FENCE);
                         entries.add(ModBlocks.BEASTBOSS_FENCE_GATE);
+                        entries.add(ModBlocks.BEASTBOSS_STAIRS);
+                        entries.add(ModBlocks.BEASTBOSS_SLAB);
+                        entries.add(ModBlocks.BEASTBOSS_DOOR);
+                        entries.add(ModBlocks.BEASTBOSS_TRAPDOOR);
+                        entries.add(TBBMod.BEASTBOSS_SIGN);
+                        entries.add(TBBMod.BEASTBOSS_HANGING_SIGN);
                     }).build());
     public static void registerItemGroups() {
         TBBMod.LOGGER.info("Registering Item Groups for " + TBBMod.MOD_ID);

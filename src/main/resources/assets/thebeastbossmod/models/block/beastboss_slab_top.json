@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "thebeastbossmod:block/beastboss_planks",
+    "side": "thebeastbossmod:block/beastboss_planks",
+    "top": "thebeastbossmod:block/beastboss_planks"
+  }
+}

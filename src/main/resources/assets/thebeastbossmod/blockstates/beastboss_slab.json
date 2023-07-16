@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeastbossmod:block/beastboss_slab"
+    },
+    "type=double": {
+      "model": "thebeastbossmod:block/beastboss_planks"
+    },
+    "type=top": {
+      "model": "thebeastbossmod:block/beastboss_slab_top"
+    }
+  }
+}

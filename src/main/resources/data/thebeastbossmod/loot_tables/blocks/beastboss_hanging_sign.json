@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thebeastbossmod:beastboss_hanging_sign"
+        }
+      ]
+    }
+  ]
+}

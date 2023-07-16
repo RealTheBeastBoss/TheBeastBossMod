@@ -9,6 +9,8 @@
   "item.thebeastbossmod.beastboss_chestplate": "BeastBoss Chestplate",
   "item.thebeastbossmod.beastboss_leggings": "BeastBoss Leggings",
   "item.thebeastbossmod.beastboss_boots": "BeastBoss Boots",
+  "item.thebeastbossmod.beastboss_sign": "BeastBoss Sign",
+  "item.thebeastbossmod.beastboss_hanging_sign": "BeastBoss Hanging Sign",
 
   "block.thebeastbossmod.beastboss_block": "Block of BeastBossanium",
   "block.thebeastbossmod.beastboss_ore": "BeastBossanium Ore",
@@ -24,6 +26,14 @@
   "block.thebeastbossmod.beastboss_pressure_plate": "BeastBoss Pressure Plate",
   "block.thebeastbossmod.beastboss_fence": "BeastBoss Fence",
   "block.thebeastbossmod.beastboss_fence_gate": "BeastBoss Fence Gate",
+  "block.thebeastbossmod.beastboss_stairs": "BeastBoss Stairs",
+  "block.thebeastbossmod.beastboss_slab": "BeastBoss Slab",
+  "block.thebeastbossmod.beastboss_door": "BeastBoss Door",
+  "block.thebeastbossmod.beastboss_trapdoor": "BeastBoss Trapdoor",
+  "block.thebeastbossmod.beastboss_sign": "BeastBoss Sign",
+  "block.thebeastbossmod.beastboss_hanging_sign": "BeastBoss Hanging Sign",
+  "block.thebeastbossmod.beastboss_wall_sign": "BeastBoss Wall Sign",
+  "block.thebeastbossmod.beastboss_wall_hanging_sign": "BeastBoss Wall Hanging Sign",
 
   "enchantment.thebeastbossmod.withering": "Withering",
   "enchantment.thebeastbossmod.withering.description": "Has a chance to inflict targets with Wither",

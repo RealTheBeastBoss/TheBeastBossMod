@@ -9,6 +9,14 @@
     "thebeastbossmod:beastboss_button",
     "thebeastbossmod:beastboss_pressure_plate",
     "thebeastbossmod:beastboss_fence",
-    "thebeastbossmod:beastboss_fence_gate"
+    "thebeastbossmod:beastboss_fence_gate",
+    "thebeastbossmod:beastboss_slab",
+    "thebeastbossmod:beastboss_stairs",
+    "thebeastbossmod:beastboss_door",
+    "thebeastbossmod:beastboss_trapdoor",
+    "thebeastbossmod:beastboss_sign",
+    "thebeastbossmod:beastboss_wall_sign",
+    "thebeastbossmod:beastboss_hanging_sign",
+    "thebeastbossmod:beastboss_wall_hanging_sign"
   ]
 }

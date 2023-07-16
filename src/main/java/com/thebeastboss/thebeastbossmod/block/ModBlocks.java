@@ -1,6 +1,11 @@
 package com.thebeastboss.thebeastbossmod.block;
 
 import com.thebeastboss.thebeastbossmod.TBBMod;
+import com.thebeastboss.thebeastbossmod.block.custom.ModHangingSignBlock;
+import com.thebeastboss.thebeastbossmod.block.custom.ModStandingSignBlock;
+import com.thebeastboss.thebeastbossmod.block.custom.ModWallHangingSignBlock;
+import com.thebeastboss.thebeastbossmod.block.custom.ModWallSignBlock;
+import com.thebeastboss.thebeastbossmod.block.entity.ModWoodTypes;
 import com.thebeastboss.thebeastbossmod.world.tree.BeastBossSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -24,7 +29,7 @@ public class ModBlocks {
             .copyOf(Blocks.STRIPPED_OAK_LOG).strength(4.0f).requiresTool()));
     public static final Block STRIPPED_BEASTBOSS_WOOD = registerBlock("stripped_beastboss_wood", new PillarBlock(FabricBlockSettings
             .copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4.0f).requiresTool()));
-    public static final Block BEASTBOSS_PLANKS = registerBlock("beastboss_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()));
+    public static final Block BEASTBOSS_PLANKS = registerBlock("beastboss_planks", new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4.0f).requiresTool()));
     public static final Block BEASTBOSS_LEAVES = registerBlock("beastboss_leaves", new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.4f).requiresTool()));
     public static final Block BEASTBOSS_SAPLING = registerBlock("beastboss_sapling", new SaplingBlock(new BeastBossSaplingGenerator(),
             FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
@@ -32,10 +37,26 @@ public class ModBlocks {
             FabricBlockSettings.copyOf(Blocks.ACACIA_PRESSURE_PLATE), BlockSetType.OAK));
     public static final Block BEASTBOSS_BUTTON = registerBlock("beastboss_button", new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_BUTTON), BlockSetType.OAK,
             30, true));
-    public static final Block BEASTBOSS_FENCE = registerBlock("beastboss_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
-    public static final Block BEASTBOSS_FENCE_GATE = registerBlock("beastboss_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE), WoodType.OAK));
+    public static final Block BEASTBOSS_FENCE = registerBlock("beastboss_fence", new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).strength(4.0f).requiresTool()));
+    public static final Block BEASTBOSS_FENCE_GATE = registerBlock("beastboss_fence_gate", new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE).strength(4.0f).requiresTool(), ModWoodTypes.BEASTBOSS));
+    public static final Block BEASTBOSS_STAIRS = registerBlock("beastboss_stairs", new StairsBlock(ModBlocks.BEASTBOSS_PLANKS.getDefaultState(),
+            FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).strength(4.0f).requiresTool()));
+    public static final Block BEASTBOSS_SLAB = registerBlock("beastboss_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB).strength(4.0f).requiresTool()));
+    public static final Block BEASTBOSS_DOOR = registerBlock("beastboss_door", new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR).strength(4.0f).requiresTool(), BlockSetType.OAK));
+    public static final Block BEASTBOSS_TRAPDOOR = registerBlock("beastboss_trapdoor", new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).strength(4.0f).requiresTool(), BlockSetType.OAK));
+    public static final Block BEASTBOSS_SIGN = registerBlockWithoutBlockItem("beastboss_sign", new ModStandingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN)
+            .strength(4.0f).requiresTool(), ModWoodTypes.BEASTBOSS));
+    public static final Block BEASTBOSS_WALL_SIGN = registerBlockWithoutBlockItem("beastboss_wall_sign", new ModWallSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)
+            .strength(4.0f).requiresTool(), ModWoodTypes.BEASTBOSS));
+    public static final Block BEASTBOSS_HANGING_SIGN = registerBlockWithoutBlockItem("beastboss_hanging_sign", new ModHangingSignBlock(FabricBlockSettings
+            .copyOf(Blocks.OAK_HANGING_SIGN).strength(4.0f).requiresTool(), ModWoodTypes.BEASTBOSS));
+    public static final Block BEASTBOSS_WALL_HANGING_SIGN = registerBlockWithoutBlockItem("beastboss_wall_hanging_sign", new ModWallHangingSignBlock(FabricBlockSettings
+            .copyOf(Blocks.OAK_WALL_HANGING_SIGN).strength(4.0f).requiresTool(), ModWoodTypes.BEASTBOSS));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, new Identifier(TBBMod.MOD_ID, name), block);
+    }
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(TBBMod.MOD_ID, name), block);
     }
     private static Item registerBlockItem(String name, Block block) {

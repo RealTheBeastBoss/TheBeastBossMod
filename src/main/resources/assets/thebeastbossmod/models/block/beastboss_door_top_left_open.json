@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "thebeastbossmod:block/beastboss_door_bottom",
+    "top": "thebeastbossmod:block/beastboss_door_top"
+  }
+}

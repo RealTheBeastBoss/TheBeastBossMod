@@ -1,7 +1,7 @@
 {
   "variants": {
     "axis=x": {
-      "model": "thebeastbossmod:block/stripped_beastboss_wood",
+      "model": "thebeastbossmod:block/stripped_beastboss_wood_horizontal",
       "x": 90,
       "y": 90
     },
@@ -9,7 +9,7 @@
       "model": "thebeastbossmod:block/stripped_beastboss_wood"
     },
     "axis=z": {
-      "model": "thebeastbossmod:block/stripped_beastboss_wood",
+      "model": "thebeastbossmod:block/stripped_beastboss_wood_horizontal",
       "x": 90
     }
   }

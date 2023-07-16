@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "thebeastbossmod:block/stripped_beastboss_log",
+    "end": "thebeastbossmod:block/stripped_beastboss_wood_top",
     "side": "thebeastbossmod:block/stripped_beastboss_log"
   }
 }
