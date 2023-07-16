@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BEASTBOSS_TRAPDOOR);
                         entries.add(TBBMod.BEASTBOSS_SIGN);
                         entries.add(TBBMod.BEASTBOSS_HANGING_SIGN);
+                        entries.add(TBBMod.BEASTBOSS_BANANA);
                     }).build());
     public static void registerItemGroups() {
         TBBMod.LOGGER.info("Registering Item Groups for " + TBBMod.MOD_ID);

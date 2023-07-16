@@ -16,7 +16,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.PlacedFeature;
@@ -52,6 +51,8 @@ public class TBBMod implements ModInitializer {
 			new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.BEASTBOSS_SIGN, ModBlocks.BEASTBOSS_WALL_SIGN));
 	public static Item BEASTBOSS_HANGING_SIGN = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_hanging_sign"),
 			new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.BEASTBOSS_HANGING_SIGN, ModBlocks.BEASTBOSS_WALL_HANGING_SIGN));
+	public static Item BEASTBOSS_BANANA = Registry.register(Registries.ITEM, new Identifier(MOD_ID, "beastboss_banana"),
+			new Item(new FabricItemSettings().food(ModFoodComponents.BEASTBOSS_BANANA)));
 	// TheBeastBoss Mod's Enchantments:
 	public static Enchantment WITHERING = Registry.register(Registries.ENCHANTMENT, new Identifier(MOD_ID, "withering"), new WitheringEnchantment());
 	@Override

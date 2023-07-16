@@ -1,10 +1,7 @@
 package com.thebeastboss.thebeastbossmod.block;
 
 import com.thebeastboss.thebeastbossmod.TBBMod;
-import com.thebeastboss.thebeastbossmod.block.custom.ModHangingSignBlock;
-import com.thebeastboss.thebeastbossmod.block.custom.ModStandingSignBlock;
-import com.thebeastboss.thebeastbossmod.block.custom.ModWallHangingSignBlock;
-import com.thebeastboss.thebeastbossmod.block.custom.ModWallSignBlock;
+import com.thebeastboss.thebeastbossmod.block.custom.*;
 import com.thebeastboss.thebeastbossmod.block.entity.ModWoodTypes;
 import com.thebeastboss.thebeastbossmod.world.tree.BeastBossSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
